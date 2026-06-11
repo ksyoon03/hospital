@@ -36,8 +36,8 @@ class ScheduleUI:
         # 기존 근무일 열람 및 수정/삭제
         self.tab_mod = tk.Frame(self.notebook, bg="white")
 
-        self.notebook.add(self.tab_reg, text="[ScheduleUI] 근무일 등록  ")
-        self.notebook.add(self.tab_mod, text="[ScheduleUI] 근무일 수정/삭제  ")
+        self.notebook.add(self.tab_reg, text="근무일 등록  ")
+        self.notebook.add(self.tab_mod, text="근무일 수정/삭제  ")
 
         self.render_register_tab()
         self.render_modify_tab()
